@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+}
+
+.sliderContainer {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  appearance: none;
+  width: 2000px;
+  transform: rotate(360deg);
+  border-radius: 60px;
+  background: linear-gradient(to left, blue, purple);
+  outline: none;
+  padding: 40px;
+}
+
+.contentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderContainer {
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
